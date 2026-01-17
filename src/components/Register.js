@@ -25,12 +25,13 @@ export default function Register() {
           Name:
           <input type="text" name="name" ref={nameRef} />
         </label>
-        <input type="submit" value="Submit" />
 
         <label>
           Email:
           <input type="text" name="email" ref={emailRef} />
         </label>
+
+        <input type="submit" value="Submit" />
 
       </form>
     </div>
